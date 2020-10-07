@@ -1,26 +1,8 @@
 // First we create a function that allows us to add numbers to an array
-const numbers = [
-  1,
-  2,
-  3,
-  4,
-  5,
-  6,
-  7,
-  8,
-  9,
-  10,
-  11,
-  12,
-  13,
-  14,
-  15,
-  16,
-  17,
-  18,
-  19,
-  20,
-];
+const numbers = [23, 53, 5, 56, 12, 24, 1, 3, 223, 3, 21, 35, 8, 34, 45, 74];
+
+// We want to arrange the numbers in ascending order
+console.log(numbers.sort((a, b) => a - b));
 
 for (let i = 0; i < numbers.length; i++) {
   if (numbers[i] % 2 === 0) {
